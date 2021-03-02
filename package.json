@@ -19,8 +19,8 @@
     "release": "release-it"
   },
   "devDependencies": {
-    "@apollo/federation": "0.18.1",
-    "@apollo/gateway": "0.17.0",
+    "@apollo/federation": "0.21.2",
+    "@apollo/gateway": "0.23.2",
     "@commitlint/cli": "12.0.1",
     "@commitlint/config-angular": "12.0.1",
     "@nestjs/common": "7.6.13",
@@ -35,9 +35,9 @@
     "@types/normalize-path": "3.0.0",
     "@typescript-eslint/eslint-plugin": "4.16.1",
     "@typescript-eslint/parser": "4.16.1",
-    "apollo-server-express": "2.16.1",
-    "apollo-server-fastify": "2.16.1",
-    "apollo-server-testing": "2.16.1",
+    "apollo-server-express": "2.21.0",
+    "apollo-server-fastify": "2.21.0",
+    "apollo-server-testing": "2.21.0",
     "class-transformer": "0.4.0",
     "class-validator": "0.13.1",
     "eslint": "7.21.0",
@@ -62,8 +62,8 @@
     "@graphql-tools/schema": "6.2.4",
     "@graphql-tools/utils": "6.2.4",
     "@nestjs/mapped-types": "0.3.0",
-    "apollo-env": "0.6.5",
-    "apollo-server-core": "2.16.1",
+    "apollo-env": "0.6.6",
+    "apollo-server-core": "2.21.0",
     "chokidar": "3.5.1",
     "fast-glob": "3.2.5",
     "iterall": "1.2.2",
@@ -79,7 +79,7 @@
     "reflect-metadata": "^0.1.12"
   },
   "optionalDependencies": {
-    "@apollo/gateway": "^0.17.0",
+    "@apollo/gateway": "^0.23.0",
     "apollo-server-testing": "^2.16.1",
     "ts-morph": "^9.0.0"
   },
