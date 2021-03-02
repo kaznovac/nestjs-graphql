@@ -13,7 +13,7 @@ export function getDefaultValue<T = any>(
     return initializerValue;
   }
   if (
-    options.defaultValue !== initializerValue &&
+    options.defaultValue !== initializerValue && // FIXME this does not work , test for objects also
     !isUndefined(initializerValue)
   ) {
     throw new DefaultValuesConflictError(
